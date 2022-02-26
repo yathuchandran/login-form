@@ -1,23 +1,40 @@
 body {
-    background-color: rgba(0, 255, 42, 0.445);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 input{
-    border: 2px solid #ffffff;
-background-color: #aaaa;
-color: #000;
+    border: 2px solid #000000;
+background-color: rgba(238, 255, 0, 0.667);
+color: rgb(0, 0, 0);
 padding: 15px;
 border-radius: 8px;
+margin-bottom: 10px;
 }
 button{
    border: 4px solid rgb(223, 88, 88);
+    color: white;
+    background-color: #000;
+    align-self: center;
 }
 #form1{
     background-color: bisque;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    flex-direction: 10px;
+    align-items: center;
+}
+#vv{
+    background-color: bisque;
+    border: 1px solid rgb(223, 88, 88);
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
 }
